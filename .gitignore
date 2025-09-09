@@ -1,0 +1,32 @@
+# Hugo build artifacts
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
+
+# Node.js dependencies (if using)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local environment files
+.env
+.env.local
+.env.production
+
+# Logs
+*.log
+
+# Cache
+.cache/

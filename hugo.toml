@@ -1,0 +1,63 @@
+baseURL = 'https://4amir.github.io/portfolio/'
+languageCode = 'en-us'
+title = "Pixel-perfect Pragmatist"
+theme = 'PaperMod'
+
+[params]
+  author = "Aamir Khan"
+  description = "Senior iOS Engineer & Swift Expert"
+  keywords = ["iOS", "Swift", "SwiftUI", "UIKit", "mobile", "developer", "portfolio"]
+  
+  # Theme settings
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+  comments = false
+  hidemeta = false
+  hideSummary = false
+  showtoc = false
+  tocopen = false
+
+  # Profile mode
+  [params.profileMode]
+    enabled = true
+    title = "Aamir Khan"
+    subtitle = "Precision-minded iOS craftsman—SwiftUI poet, UIKit mechanic—shipping Apple-quality features with startup speed."
+    imageUrl = "images/profile.jpg"
+    imageTitle = "Profile Picture"
+    imageWidth = 150
+    imageHeight = 150
+
+  # Social links
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/4amir"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/koshurcodes"
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:me@aamirkhan.me"
+
+
+# Menu configuration
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/posts/"
+    weight = 30
