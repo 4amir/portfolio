@@ -3,10 +3,14 @@ languageCode = 'en-us'
 title = "Pixel-perfect Pragmatist"
 theme = 'PaperMod'
 
+# Google Analytics 4
+googleAnalytics = "G-VSB3EYSVBD"
+
 [params]
   author = "Aamir Khan"
   description = "Senior iOS Engineer & Swift Expert"
   keywords = ["iOS", "Swift", "SwiftUI", "UIKit", "mobile", "developer", "portfolio"]
+  
   
   # Theme settings
   ShowReadingTime = true
